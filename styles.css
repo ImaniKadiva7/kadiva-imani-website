@@ -3,7 +3,7 @@
 {
   display: flex;
   flex-direction: row;
-  background-color: rgb(124, 124, 124);
+  /*background-color: rgb(124, 124, 124);*/
   margin-bottom: 20px;
 }
 
@@ -118,8 +118,8 @@
 {
   display: flex;
   flex-direction: row;
-  background-color: rgb(124, 124, 124);
-  height: 500px;
+  /*background-color: rgb(124, 124, 124);*/
+  height: 200px;
 }
 
 .profile-image-section
@@ -132,8 +132,9 @@
 
 .profile-pic
 {
-  clip-path: circle();
-  width: 100%;
+  border: none;
+  border-radius: 100px;
+  height: 200px;
 }
 
 .description-section
@@ -165,6 +166,24 @@
 {
   color: white;
   font-family: Arial;
-  font-size: 36px;
+  font-size: 18px;
   width: 100%;
+}
+
+body
+{
+  background-color: rgb(124,124,124);
+  min-height: 50vh;
+}
+
+@viewport
+{
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+@-ms-viewport
+{
+  width: extend-to-zoom;
+  zoom: 1.0;
 }
