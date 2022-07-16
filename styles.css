@@ -10,6 +10,7 @@
 .header-left
 {
   display: flex;
+  justify-content: space-between;
   flex: 2;
 }
 
@@ -139,9 +140,9 @@
 
 .description-section
 {
-  display: flex;
-  flex: 2;
-  /*background-color: lightpink;*/
+  /*display: flex;
+  flex: 2;*/
+  background-color: lightpink;
   height: 120px;
   margin-top: 10px;
   margin-right: 20px;
@@ -149,8 +150,8 @@
 
 .description-header
 {
-  display: flex;
-  /*background-color: black;*/
+  /*display: flex;*/
+  background-color: black;
   height: 100px;
   margin-left: 10px;
   margin-right: 10px;
@@ -159,7 +160,6 @@
   margin-top: 10px;
   margin-bottom: 10px;
   align-items: center;
-  width: 100%;
 }
 
 .description-header-h1
@@ -167,7 +167,6 @@
   color: white;
   font-family: Arial;
   font-size: 18px;
-  width: 100%;
 }
 
 body
